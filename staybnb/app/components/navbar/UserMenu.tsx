@@ -6,7 +6,7 @@ import MenuItem from "./MenuItem";
 type Props = {};
 
 const UserMenu = ({}: Props) => {
-  const [isOpen, setIsOpen] = useState(true);
+  const [isOpen, setIsOpen] = useState(false);
 
   const toggleOpen = useCallback(() => {
     setIsOpen((value) => !value);
