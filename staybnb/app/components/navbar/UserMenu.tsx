@@ -39,7 +39,7 @@ const UserMenu = ({ currentUser }: Props) => {
         >
           <AiOutlineMenu />
           <div className="hidden md:block">
-            <Avatar />
+            <Avatar src={currentUser?.image} />
           </div>
         </div>
       </div>
@@ -58,7 +58,6 @@ const UserMenu = ({ currentUser }: Props) => {
               </>
             ) : (
               <>
-                {console.log(currentUser)}
                 <MenuItem onClick={loginModal.onOpen} label={"Login"} />
                 <MenuItem onClick={registerModal.onOpen} label={"Sign up"} />
               </>

@@ -1,15 +1,17 @@
 "use client";
 import React from "react";
 import Image from "next/image";
-type Props = {};
+type Props = {
+  src?: string | null | undefined;
+};
 
-function Avatar({}: Props) {
+function Avatar({ src }: Props) {
   return (
     <Image
       className="rounded-full"
       height={30}
       width={30}
-      src="/images/placeholder.jpg"
+      src={src || "/images/placeholder.jpg"}
       alt="Avatar"
     />
   );
