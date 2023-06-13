@@ -1,6 +1,7 @@
 {
   "dependencies": {
-    "react-hot-toast": "^2.4.1"
+    "react-hot-toast": "^2.4.1",
+    "world-countries": "^4.0.0"
   },
   "devDependencies": {
     "prisma": "^4.15.0"
