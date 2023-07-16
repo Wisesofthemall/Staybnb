@@ -10,6 +10,7 @@ import CountrySelect from "../inputs/CountrySelect";
 import dynamic from "next/dynamic";
 import Counter from "../inputs/Counter";
 import ImageUploader from "../inputs/ImageUploader";
+import Input from "../inputs/Input";
 
 type Props = {};
 enum STEPS {
@@ -24,6 +25,7 @@ function RentModal({}: Props) {
   const rentModal = useRentModal();
 
   const [step, setStep] = useState(STEPS.CATEGORY);
+  const [isLoading, setIsLoading] = useState(false);
 
   const {
     register,
@@ -172,6 +174,32 @@ function RentModal({}: Props) {
             />
           </div>
         </div>
+      </div>
+    );
+  }
+  if (step === STEPS.DESCRIPTION) {
+    bodyContent = (
+      <div className="flex flex-col gap-8 ">
+        <Heading
+          title="Share some description about your place"
+          subtitle="What is your place about?"
+        />
+        <Input
+          id="title"
+          label="Title"
+          disabled={isLoading}
+          register={register}
+          errors={errors}
+          required
+        />
+        <hr />
+        <Input
+          id="description"
+          label="Description"
+          disabled={isLoading}
+          errors={errors}
+          register={register}
+        />
       </div>
     );
   }
