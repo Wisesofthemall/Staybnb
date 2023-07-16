@@ -1,22 +1,19 @@
 import Image from "next/image";
+import Container from "./components/Container";
+import EmptyState from "./components/EmptyState";
 
 export default function Home() {
-  type Alert = {
-    title: string;
-    code: number;
-    message: string;
-  };
-
-  const myAlerts: Alert = {
-    title: "",
-    code: 0,
-    message: "",
-  };
-  const arr = ["a", "b", "c", "d", "e", "f"];
-  const last = arr.at(-1);
-
-  type Tuple = number[];
-  let tuple1: Tuple = [0, 0, 7];
-
-  return <div className="text-rose-400-700"></div>;
+  const isEmpty = true;
+  console.log(isEmpty);
+  if (isEmpty) {
+    return <EmptyState showReset />;
+  }
+  console.log("boom");
+  return (
+    <Container>
+      <div className=" pt-24 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 2xl:grid-cols-6 gap-8">
+        <div>My Future Listings</div>
+      </div>
+    </Container>
+  );
 }
