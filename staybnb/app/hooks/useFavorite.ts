@@ -35,7 +35,7 @@ const useFavorite = ({ listingId, currentUser }: FavoriteTypes) => {
         }
         await request();
         router.refresh();
-        toast.success("Favorite added");
+        toast.success("Favorites updated");
       } catch (error) {
         toast.error("Failed to add favorite");
       }
