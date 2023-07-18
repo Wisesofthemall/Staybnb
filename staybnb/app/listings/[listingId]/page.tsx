@@ -1,9 +1,20 @@
 import React from "react";
+import getListingById from "@/app/actions/getListingById";
+import EmptyState from "@/app/components/EmptyState";
+import getCurrentUser from "@/app/actions/getCurrentUser";
+import ListingClient from "./ListingClient";
+type Props = {
+  listingId?: string;
+};
 
-type Props = {};
+async function ListingPage({ params }: { params: Props }) {
+  const listing = await getListingById(params);
+  const currentUser = await getCurrentUser();
 
-function ListingPage({}: Props) {
-  return <div>ListingPage</div>;
+  if (!listing) {
+    return <EmptyState />;
+  }
+  return <ListingClient listing={listing} current={currentUser} />;
 }
 
 export default ListingPage;
