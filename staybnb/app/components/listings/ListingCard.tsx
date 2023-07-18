@@ -7,11 +7,12 @@ import React, { useCallback, useMemo } from "react";
 import { format } from "date-fns";
 import Image from "next/image";
 import HeartButton from "../HeartButton";
+import Button from "../Button";
 
 type Props = {
   currentUser?: SafeUser | null;
   reservation?: Reservation;
-  onAction: (id: string) => void;
+  onAction?: (id: string) => void;
   disabled?: boolean;
   actionLabel: string;
   actionId?: string;
@@ -31,7 +32,7 @@ function ListingCard({
 }: Props) {
   const router = useRouter();
   const { getByValue } = useCountries();
-  const locarion = getByValue(data.locationValue);
+  const location = getByValue(data.locationValue);
   const handleCancel = useCallback(
     (e: React.MouseEvent<HTMLButtonElement>) => {
       e.stopPropagation();
@@ -78,7 +79,24 @@ function ListingCard({
           </div>
         </div>
       </div>
-      ListingCard
+      <div className="font-semibold text-lg ">
+        {location?.region}, {location?.label}
+      </div>
+      <div className="font-light text-neutral-500">
+        {reservationDate || data.category}
+      </div>
+      <div className="flex flex-row items-center gap-1">
+        <div className="font-semibold"> $ {price}</div>
+        {!reservation && <div className="font-light">night</div>}
+      </div>
+      {onAction && actionLabel && (
+        <Button
+          disabled={disabled}
+          small
+          label={actionLabel}
+          onClick={handleCancel}
+        />
+      )}
     </div>
   );
 }
