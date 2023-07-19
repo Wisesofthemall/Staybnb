@@ -5,6 +5,11 @@ import { SafeUser } from "@/app/types";
 import React from "react";
 import { IconType } from "react-icons";
 import ListingCategory from "./ListingCategory";
+import dynamic from "next/dynamic";
+
+const Map = dynamic(() => import("@/app/components/Map"), {
+  ssr: false,
+});
 type Cat = {
   label: string;
   icon: IconType;
@@ -52,6 +57,10 @@ function ListingInfo({
           description={category.description}
         />
       )}
+      <hr />
+      <div className="text-lg font-light text-neutral-500">{description}</div>
+      <hr />
+      <Map center={coordinates} />
     </div>
   );
 }
