@@ -45,7 +45,7 @@ function ListingClient({ listing, current, reservation = [] }: Props) {
       })
       .then((data) => {
         console.log(data);
-        toast.success("Listing Reservations Success");
+        toast.success("Listing Reserved");
         setDateRange(initialDateRange);
         router.push("/trips");
       })
