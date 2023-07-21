@@ -21,10 +21,7 @@ async function ReservationPage({}: Props) {
 
   return (
     <div>
-      <ReservationsClient
-        reservations={reservations}
-        currentUser={currentUser}
-      />
+      <ReservationsClient reservations={reservations} user={currentUser} />
     </div>
   );
 }
