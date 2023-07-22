@@ -42,9 +42,9 @@ This is an Airbnb clone app built using modern web technologies.
 
 ## Demos
 - Make a Reservation
-[MakeAReseration.webm](https://github.com/Wisesofthemall/Staybnb/assets/101741874/f62fa8b8-23cd-4cef-9376-136e2f108280)
--Staybnb your home!
-[Bookings.webm](https://github.com/Wisesofthemall/Staybnb/assets/101741874/afc2cb05-23f7-4e0a-bc7d-00ac252dcc8e)
+ - [MakeAReseration.webm](https://github.com/Wisesofthemall/Staybnb/assets/101741874/f62fa8b8-23cd-4cef-9376-136e2f108280)
+- Staybnb your home!
+ - [Bookings.webm](https://github.com/Wisesofthemall/Staybnb/assets/101741874/afc2cb05-23f7-4e0a-bc7d-00ac252dcc8e)
 
 
 ## Getting Started
