@@ -40,6 +40,7 @@ This is an Airbnb clone app built using modern web technologies.
 ## Built With
 
 - [Next.js](https://nextjs.org/) - React Framework
+- [TypeScript](https://www.typescriptlang.org/) - Static typing
 - [Tailwind CSS](https://tailwindcss.com/) - For styling
 - [MongoDB](https://www.mongodb.com/) - Database
 - [Prisma](https://www.prisma.io/) - Object-Relational Mapping
