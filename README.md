@@ -25,11 +25,10 @@ This is an Airbnb clone app built using modern web technologies.
     <img width="1440" alt="Screen Shot 2023-07-22 at 2 47 22 AM" src="https://github.com/Wisesofthemall/Staybnb/assets/101741874/9c8dc49b-76f2-479d-91b2-41979bd6c4e7">
 
     
-  - Calendar shows booked dates and availability  
+  - Calendar shows booked dates and availability
+    <img width="1440" alt="Screen Shot 2023-07-22 at 2 49 43 AM" src="https://github.com/Wisesofthemall/Staybnb/assets/101741874/76b64ca8-2711-4810-8485-e9b3730af4c4">
+
   
-- User profiles
-  - Hosts can create a profile with verification for credibility
-  - Guests have personal profiles to manage bookings
 
   
 ## Built With
@@ -41,9 +40,11 @@ This is an Airbnb clone app built using modern web technologies.
 
 - [Vercel](https://vercel.com/) - Deployment
 
-## Demo
+## Demos
 - Make a Reservation
 [MakeAReseration.webm](https://github.com/Wisesofthemall/Staybnb/assets/101741874/f62fa8b8-23cd-4cef-9376-136e2f108280)
+-Staybnb your home!
+[Bookings.webm](https://github.com/Wisesofthemall/Staybnb/assets/101741874/afc2cb05-23f7-4e0a-bc7d-00ac252dcc8e)
 
 
 ## Getting Started
