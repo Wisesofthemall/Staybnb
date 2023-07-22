@@ -1,4 +1,4 @@
-<img width="1440" alt="Screen Shot 2023-07-22 at 2 47 22 AM" src="https://github.com/Wisesofthemall/Staybnb/assets/101741874/f94cd6d5-f811-4ec8-a381-aba5df61525b"># Staybnb
+# Staybnb
 
 This is an Airbnb clone app built using modern web technologies.
 
@@ -6,27 +6,33 @@ This is an Airbnb clone app built using modern web technologies.
 
 - User authentication
   - Users can sign up and login to access the platform
-    <img width="1440" alt="Screen Shot 2023-07-22 at 2 43 22 AM" src="https://github.com/Wisesofthemall/Staybnb/assets/101741874/2e57bfa1-4648-4a90-958e-b0afebba788e">
+   <img width="1436" alt="Screen Shot 2023-07-22 at 2 43 22 AM" src="https://github.com/Wisesofthemall/Staybnb/assets/101741874/50fe15cb-142a-430e-afc8-0b1696443608">
+
 
     
 - Property listings
   - Hosts can list properties with details like amenities, photos, location etc
-    <img width="1440" alt="Screen Shot 2023-07-22 at 2 44 36 AM" src="https://github.com/Wisesofthemall/Staybnb/assets/101741874/d88d5584-907b-454b-b9ec-596e7a0aedb7">
+   <img width="1430" alt="Screen Shot 2023-07-22 at 2 44 36 AM" src="https://github.com/Wisesofthemall/Staybnb/assets/101741874/c8cc27b0-4068-48cf-9c9e-ea96190377e4">
+
 
   - Guests can search, filter and browse property listings
-    <img width="1440" alt="Screen Shot 2023-07-22 at 2 45 20 AM" src="https://github.com/Wisesofthemall/Staybnb/assets/101741874/2d810120-d553-45aa-b169-7404283aa973">
+    
+<img width="1431" alt="Screen Shot 2023-07-22 at 2 45 20 AM" src="https://github.com/Wisesofthemall/Staybnb/assets/101741874/3bc51980-4eee-40c9-9bbc-903eb246cb30">
 
 - Booking system
   - Guests can select dates and book a property
-    <img width="1440" alt="Screen Shot 2023-07-22 at 2 46 20 AM" src="https://github.com/Wisesofthemall/Staybnb/assets/101741874/3f2b4cef-a8c4-4166-897c-2f831e1f77c6">
+    
+<img width="1435" alt="Screen Shot 2023-07-22 at 2 46 20 AM" src="https://github.com/Wisesofthemall/Staybnb/assets/101741874/4e4fdf25-1245-4b22-a737-04e616667a82">
 
     
   - Hosts can approve/decline booking requests
-    <img width="1440" alt="Screen Shot 2023-07-22 at 2 47 22 AM" src="https://github.com/Wisesofthemall/Staybnb/assets/101741874/9c8dc49b-76f2-479d-91b2-41979bd6c4e7">
+    
+<img width="1433" alt="Screen Shot 2023-07-22 at 2 47 22 AM" src="https://github.com/Wisesofthemall/Staybnb/assets/101741874/1f8ac607-5e90-4a7a-b14c-f989e542fe4b">
 
     
   - Calendar shows booked dates and availability
-    <img width="1440" alt="Screen Shot 2023-07-22 at 2 49 43 AM" src="https://github.com/Wisesofthemall/Staybnb/assets/101741874/76b64ca8-2711-4810-8485-e9b3730af4c4">
+    
+<img width="1372" alt="Screen Shot 2023-07-22 at 2 49 43 AM" src="https://github.com/Wisesofthemall/Staybnb/assets/101741874/ab3c92b6-a71e-432d-a162-5398ed57fad9">
 
   
 
